@@ -1,0 +1,22 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+}
+.card-header{
+    overflow: hidden;
+    width:250px;
+    height: 200px;
+}
+.card-header img{
+    height:100%;
+}
+.card-body-header{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
